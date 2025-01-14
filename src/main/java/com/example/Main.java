@@ -17,8 +17,14 @@ public class Main {
     public static void main(String[] args) {
         logger.info("Welcome to the Java Training Project!");
         // Main method implementation
+        demonstrateAICapabilities();
     }
 
+    /**
+     * Performs a specific action and returns the expected output.
+     *
+     * @return A string representing the expected output
+     */
     public static String performAction() {
         return "Expected Output";
     }
