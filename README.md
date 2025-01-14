@@ -55,12 +55,8 @@ To run the unit tests, use the following command:
 mvn test
 ```
 
-## AI Demonstrate
-1. Step 1: Analyze Code and Find Problems
-   1. Ask to Analyze Main.java
-   2. Fix problems with Copilot for wrong package
-   3. Ask to Analyze MainTest.java
-   4. Fix problems with Copilot for wrong package
-   5. Fix missing JUnit 5, adding missing dependency in pom.xml
+## Verify with Sonar
+mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ali-irawan_training-code-java
+
 ## Conclusion
 This project serves as a practical guide to leveraging AI in Java development, focusing on code analysis, refactoring, documentation, and testing.
